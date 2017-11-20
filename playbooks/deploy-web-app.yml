@@ -1,6 +1,6 @@
 ---
 - hosts: all
   become: true
-  become_user: ci_change_master
+  become_user: apptadmin
   roles:
     - symfony-360emedapi
