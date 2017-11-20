@@ -1,7 +1,7 @@
 ---
 # initialize environment and create the necessary directories
 - name: "Initialize Site Directory Env"
-  file: path=/var/www/html/360emed-api state=directory group=360emed_admin owner=360emed_admin
+  file: path=/var/www/html/360emed-api state=directory group=webteam owner=apptadmin
   sudo: true
   sudo_user: root
 
