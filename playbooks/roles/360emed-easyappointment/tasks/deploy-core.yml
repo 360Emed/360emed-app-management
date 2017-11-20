@@ -1,0 +1,17 @@
+---
+# initialize environment and create the necessary directories
+- name: "Initialize Site Directory Env"
+  file: path=/var/www/html/360emed-easyappointments state=directory group=webteam owner=apptadmin
+  sudo: true
+  sudo_user: root
+
+- name: "Deploy Site"
+  local_action: git repo=https://github.com/360Emed/easyappointments.git dest="/var/tmp/360emed-easyappointments" version="master" force=yes
+  become: false
+  run_once: true
+
+# Setup Configuration File
+- synchronize: src=/var/tmp/360emed-easyappointments dest="/var/www/html/"
+  become: false
+
+

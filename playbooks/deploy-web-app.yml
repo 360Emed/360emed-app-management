@@ -4,3 +4,4 @@
   become_user: apptadmin
   roles:
     - symfony-360emedapi
+    - 360emed-easyappointment
