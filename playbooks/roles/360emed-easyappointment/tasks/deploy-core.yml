@@ -6,7 +6,7 @@
   sudo_user: root
 
 - name: "Deploy Site"
-  local_action: git repo=https://github.com/360Emed/easyappointments.git dest="/var/tmp/360emed-easyappointments" version="master" force=yes
+  local_action: git repo=https://github.com/360Emed/easyappointments.git dest="/var/tmp/360emed-easyappointments" version="1.2.1" force=yes
   become: false
   run_once: true
 
