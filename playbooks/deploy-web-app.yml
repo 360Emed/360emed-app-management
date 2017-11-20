@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  become_user: ci_change_master
+  roles:
+    - symfony-360emedapi
