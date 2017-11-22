@@ -1,3 +1,3 @@
 ---
 - include: deploy-core.yml
-- include: config-apache
+- include: config-apache.yml
