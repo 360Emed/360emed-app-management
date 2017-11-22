@@ -1,0 +1,13 @@
+---
+# initialize environment and create the necessary directories
+- name: Configure Apache vHosts
+  template: src=360emed.easyappointment.conf dest="/opt/rh/httpd24/root/etc/httpd/conf.vhosts.d/360emed.easyappointments.conf"
+  become: true
+  become_user: root
+  ignore_errors: true
+
+# restart the services
+- name: Restart Apache
+  service: name=httpd24-httpd state=restarted
+  become: true
+  become_user: root
