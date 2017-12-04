@@ -10,8 +10,17 @@
   become: false
   run_once: true
 
+- name: "Composer install"
+  local_action: command php composer.phar install chdir=/var/tmp/360emed-api
+  become: false
+  run_once: true
+
 # Setup Configuration File
 - synchronize: src=/var/tmp/360emed-api dest="/var/www/html/"
   become: false
 
+- name: "Change cache dir permission"
+  file: path=/var/www/html/360emed-api/var state=directory group=webteam owner=apptadmin mode=0777
+  sudo: true
+  sudo_user: root
 
