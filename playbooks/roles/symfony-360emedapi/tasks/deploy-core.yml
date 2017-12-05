@@ -19,8 +19,12 @@
 - synchronize: src=/var/tmp/360emed-api dest="/var/www/html/"
   become: false
 
-- name: "Change cache dir permission"
-  file: path=/var/www/html/360emed-api/var state=directory group=webteam owner=apptadmin mode=0777
+- name: "Change log dir permission"
+  file: path=/var/www/html/360emed-api/var/logs state=directory group=webteam owner=apptadmin mode=0777
   sudo: true
   sudo_user: root
 
+- name: "Change cache dir permission"
+  file: path=/var/www/html/360emed-api/var/cache state=directory group=webteam owner=apptadmin mode=0777
+  sudo: true
+  sudo_user: root
