@@ -15,6 +15,11 @@
   become: false
   run_once: true
 
+- name: "delete the git folder, it's not needed for app to run"
+  local_action: command rm -rf .git chdir=/var/tmp/360emed-api
+  become: false
+  run_once: true
+
 # Setup Configuration File
 - synchronize: src=/var/tmp/360emed-api dest="/var/www/html/"
   become: false

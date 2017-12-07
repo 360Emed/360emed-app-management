@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d35aab62-f610-45f4-98d1-963fd3f88ea6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playbooks/roles/360emed-easyappointment/templates/360emed.easyappointment.conf" afterPath="$PROJECT_DIR$/playbooks/roles/360emed-easyappointment/templates/360emed.easyappointment.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml" afterPath="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml" />
     </list>
     <ignored path="360emed-app-management.iws" />
@@ -66,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="360emed.easyappointment.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="360emed.easyappointment.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playbooks/roles/360emed-easyappointment/templates/360emed.easyappointment.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy-core.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="deploy-core.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -142,8 +141,8 @@
         <option value="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/main.yml" />
         <option value="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/config-apache.yml" />
         <option value="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/templates/360emed.api.conf" />
-        <option value="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml" />
         <option value="$PROJECT_DIR$/playbooks/roles/360emed-easyappointment/templates/360emed.easyappointment.conf" />
+        <option value="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml" />
       </list>
     </option>
   </component>
@@ -152,6 +151,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -387,6 +389,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d35aab62-f610-45f4-98d1-963fd3f88ea6" name="Default" comment="" />
@@ -398,12 +403,13 @@
       <workItem from="1511198294356" duration="3985000" />
       <workItem from="1511668582607" duration="889000" />
       <workItem from="1512336316928" duration="2647000" />
-      <workItem from="1512438960401" duration="626000" />
+      <workItem from="1512438960401" duration="1164000" />
+      <workItem from="1512609910078" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10077000" />
+    <option name="totallyTimeSpent" value="10675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
@@ -428,6 +434,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -436,6 +450,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/config-apache.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playbooks/deploy-web-app.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -777,18 +823,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml">
+    <entry file="file://$PROJECT_DIR$/playbooks/roles/360emed-easyappointment/templates/360emed.easyappointment.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playbooks/roles/360emed-easyappointment/templates/360emed.easyappointment.conf">
+    <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding />
         </state>
       </provider>
