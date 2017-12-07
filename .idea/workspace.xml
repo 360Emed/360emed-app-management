@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35aab62-f610-45f4-98d1-963fd3f88ea6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml" afterPath="$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml" />
     </list>
     <ignored path="360emed-app-management.iws" />
@@ -88,8 +87,8 @@
       <file leaf-file-name="deploy-core.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -404,12 +403,12 @@
       <workItem from="1511668582607" duration="889000" />
       <workItem from="1512336316928" duration="2647000" />
       <workItem from="1512438960401" duration="1164000" />
-      <workItem from="1512609910078" duration="60000" />
+      <workItem from="1512609910078" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10675000" />
+    <option name="totallyTimeSpent" value="11123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
@@ -833,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playbooks/roles/symfony-360emedapi/tasks/deploy-core.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>

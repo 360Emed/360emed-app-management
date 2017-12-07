@@ -5,6 +5,11 @@
   sudo: true
   sudo_user: root
 
+- name: "delete the folder local"
+  local_action: command rm -rf /var/tmp/360emed-api
+  become: false
+  run_once: true
+
 - name: "Deploy Site"
   local_action: git repo=https://github.com/360Emed/360emed-api.git dest="/var/tmp/360emed-api" version="master" force=yes
   become: false
