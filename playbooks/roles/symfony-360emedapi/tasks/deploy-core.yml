@@ -29,6 +29,11 @@
 - synchronize: src=/var/tmp/360emed-api dest="/var/www/html/"
   become: false
 
+- name: "Delete cache"
+  file: path=/var/www/html/360emed-api/var/cache/prod state=absent
+  sudo: true
+  sudo_user: root
+
 - name: "Change log dir permission"
   file: path=/var/www/html/360emed-api/var/logs state=directory group=webteam owner=apptadmin mode=0777
   sudo: true
